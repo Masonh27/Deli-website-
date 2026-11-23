@@ -1,0 +1,11 @@
+{
+  "name": "deli-shop-website",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Divicious Deli & Coffee Shop website rebuild (static, zero dependencies)",
+  "scripts": {
+    "start": "node site/server.js",
+    "build": "python3 site/src/build.py"
+  },
+  "engines": { "node": ">=18" }
+}

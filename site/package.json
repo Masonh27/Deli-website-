@@ -1,0 +1,8 @@
+{
+  "name": "divicious-deli-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Rebuild draft of diviciousdeli.com (mobile-first menu)",
+  "scripts": { "start": "node server.js", "build": "python3 src/build.py" },
+  "engines": { "node": ">=18" }
+}
